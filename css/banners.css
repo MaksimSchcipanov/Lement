@@ -1,0 +1,81 @@
+ /*___________________________________________баннеры______________________________________________*/
+   .firstblock{
+    border: 1px double white; /* Параметры границы */
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    width: 250px; 
+    height: 200px;
+    left: 220px; 
+    top: 185px;
+    background: blue; 
+    padding: 5px;   
+    position: absolute; 
+    color: white;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+   }
+  .secondblock{
+    border: 1px white; /* Параметры границы */
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    width: 250px; 
+    height: 250px;
+    left: 220px;
+    top: 250px; 
+    background: white; 
+    padding: 5px;   
+    position: absolute; 
+    color: blue;
+    font-family: Verdana, sans-serif;
+    text-align: left;
+  }
+   .numbertext1{
+    position: absolute;
+    top: -140px; 
+    left: 70px;
+   }
+   .numbertext2{
+    position: absolute;
+    top: -140px; 
+    left: 350px;
+   }
+    .numbertext3{
+    position: absolute;
+    top: -140px; 
+    left: 630px;
+   }
+    .numbertext4{
+    position: absolute;
+    top: 200px; 
+    left: 70px;
+       
+   }
+    .numbertext5{
+    position: absolute;
+    top: 200px; 
+    left: 350px;
+   }
+   .numbertext6{
+    position: absolute;
+    top: 200px; 
+    left: 630px;
+   }
+    .numbertext7{
+    position: absolute;
+    top: 160px; 
+    left: 700px;
+   }
+    .numbertext8{
+    position: absolute;
+    top: 160px; 
+    left: 325px;
+   }
+       .numbertext9{
+    position: absolute;
+    top: 130px; 
+    left: 845px;
+   }

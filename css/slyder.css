@@ -1,0 +1,82 @@
+/*------------------------------------Слайдер---------------------------------------------*/
+ .slideshow-container{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 150px;
+  margin-top: -30px;
+  margin-left: 222px;
+  padding: 16px;
+  color:black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next{
+  right: 8px;
+  border-radius: 3px 0 0 3px;
+}
+.mySlides{
+  text-align: center;
+  max-height: 700px;
+}
+.dot{
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color:0.6s ease;
+}
+.active, .dot:hover{
+  background-color: #717171;
+}
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration:1s;
+  animation-name:fade;
+  animation-duration:1s;
+}
+@keyframes fade{
+  0%{opacity:0.4;}
+  100%{opacity:1;}
+}
+.diagnost{
+      width: 220px; 
+    height: 220px;
+    left: -35px; 
+    top: 50px;  
+    position: absolute; 
+    color: white;
+    font-family: Verdana, sans-serif;
+   }
+  .diagnost1{
+    border: 3px double blue; /* Параметры границы */
+    border-top-style:  solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    color: #2f4a9f;
+    width: 600px;
+    height:250px; 
+    background: #fff; 
+    padding: 20px;  
+    text-align: left;
+    position: absolute; 
+    top: 50px; 
+    left: 220px; 
+    border-radius: 4%
+   }
+   .numbertext{
+    position: absolute;
+    top: 0px; 
+    left: 330px;
+   }
